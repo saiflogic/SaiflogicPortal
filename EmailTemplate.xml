@@ -1,0 +1,238 @@
+﻿<?xml version="1.0"?>
+<EmailTemplate>
+  <NEW_USER_REGISTRATION>
+    <![CDATA[
+       <html>		
+			<body>
+			<img src="https://upstreaminspections.blob.core.windows.net/sugarlandmma/_StaticContent/Banner.png"  style="width:100%;height:125px;">
+			</div><br>
+			<hr>
+			<div style="background-color:white";><font size="2" face="verdana">
+			'[Name]', Thank You for registering with us.<br><br>
+
+			<b>We are very excited and look forward to training with you!
+      <br><br>
+
+			<hr>
+			</font></div>
+			</body>
+		</html>
+    ]]>
+  </NEW_USER_REGISTRATION>
+  <NEW_USER_REGISTRATION_ADMIN>
+    <![CDATA[
+        <html>		
+				<body>
+			<img src="https://upstreaminspections.blob.core.windows.net/sugarlandmma/_StaticContent/Banner.png"  style="width:100%;height:125px;">
+			</div><br>
+			<hr>
+			A new customer was set up in SaifLogic! <br><br>
+			<b>Customer:</b> '[Entity]'<br>
+      <b>Name:</b> '[Name]'<br>
+			<b>Member E-Mail:</b> '[Email]'<br>
+			<b>Member Phone:</b> '[Phone]'<br>
+			
+			<br>
+			<hr>
+			</font></div>
+			</body>
+		</html>
+    ]]>
+  </NEW_USER_REGISTRATION_ADMIN>
+  <GROUP_EMAILER>
+    <![CDATA[
+       <html>		
+			<body>
+			<img src="https://upstreaminspections.blob.core.windows.net/sugarlandmma/_StaticContent/Banner.png"  style="width:100%;height:125px;">
+			</div><br>
+			<hr>
+			<div style="background-color:white";><font size="2" face="verdana">
+			'[Message]'<br><br>
+			<hr>
+			</font></div>
+			</body>
+		</html>
+    ]]>
+  </GROUP_EMAILER>
+  <NEW_INSPECTOR_REGISTRATION_ADMIN>
+    <![CDATA[
+        <html>		
+				<body>
+			<img src="https://upstreaminspections.com/Images/EmailBanner.jpg"  style="width:100%;height:125px;">
+			</div><br>
+			<hr>
+			A new inspector has registered with Upstream Inspections! <br><br>
+			<b>Dealership:</b> '[Dealership]'<br>
+			<b>Name:</b> '[Name]'<br>
+			<b>Title:</b> '[Title]'<br>
+			<b>E-Mail:</b> '[Email]'<br>
+			<b>Phone:</b> '[Phone]'<br>
+			
+			<br>
+      Please review their information and enable them so they can get started as an Inspector!
+      <br>
+			<hr>
+			</font></div>
+			</body>
+		</html>
+    ]]>
+  </NEW_INSPECTOR_REGISTRATION_ADMIN>
+  <NEW_INSPECTION_ORDER>
+    <![CDATA[
+        <html>		
+		<body>
+			<img src="https://upstreaminspections.com/Images/EmailBanner.jpg"  style="width:100%;height:125px;">
+			</div><br>
+			<hr>
+			Thank you for your inspection order. Your order has been received. One of our inspectors will be 
+			reaching out to very soon to schedule an inspection. We look forward to providing you the with best inspection 
+			service as possible!<br><br>	
+			<br>
+			<hr>
+			</font></div>
+			</body>
+		</html>
+    ]]>
+  </NEW_INSPECTION_ORDER>
+  <NEW_INSPECTION_ORDER_ADMIN>
+    <![CDATA[
+        <html>		
+		<body>
+			<img src="https://upstreaminspections.com/Images/EmailBanner.jpg"  style="width:100%;height:125px;">
+			</div><br>
+			<hr>
+			An inspection order was submitted by [DEALER_NAME] with [DEALERSHIP].<br><br>
+      Expected number of cars: [QUANTITY]<br>
+      Target date: [DATE]<br>
+      Special Instructions: [SPECIAL_NOTES]
+      <br>
+			<br>
+    
+			<hr>
+			</font></div>
+			</body>
+		</html>
+    ]]>
+  </NEW_INSPECTION_ORDER_ADMIN>
+  <NEW_INSPECTION_ORDER_ADMIN_RETAIL>
+    <![CDATA[
+       <html>		
+		<body>
+			<img src="https://upstreaminspections.com/Images/EmailBanner.jpg"  style="width:100%;height:125px;">
+			</div><br>
+			<hr>
+			A Retail Inspection order was submitted. Please see details below and get in touch with the customer:
+      <br>
+<br>
+<br>
+
+			Name: '[Name]'<br>			
+			E-Mail: '[Email]'<br>
+			Phone: '[Phone]'<br>		
+			
+			<br>
+			<hr>
+			</font></div>
+			</body>
+		</html>
+    ]]>
+  </NEW_INSPECTION_ORDER_ADMIN_RETAIL>
+  <CUSTOMER_QUESTION>
+    <![CDATA[
+        <html>		
+		<body>
+			<img src="https://upstreaminspections.com/Images/EmailBanner.jpg"  style="width:100%;height:125px;">
+			</div><br>
+			<hr>
+			Hello, a customer has a question. Please see below:<br><br>
+			
+			<b>Message from:</b><br>
+			<b>Customer Name:</b> '[Name]'<br
+      <b>Email:</b> '[Email]'><br>
+      <b>Phone Number:</b> '[Phone]'><br>
+			<b>Message:</b><br>
+      '[Message]'		
+
+			<br><br>
+			<hr>
+			</font></div>
+			</body>
+		</html>
+    ]]>
+  </CUSTOMER_QUESTION>
+  <INSPECTION_COMPLETE_ADMIN>
+    <![CDATA[
+                <html>		
+		<body>
+			<img src="https://upstreaminspections.com/Images/EmailBanner.jpg"  style="width:100%;height:125px;">
+			</div><br>
+			<hr>
+			
+Order ID: '[OrderNumber]' was marked complete! 
+<br>
+Please proceed to closing this transaction.
+
+<br><br>	
+
+			<br>
+			<hr>
+			</font></div>
+			</body>
+		</html>
+    ]]>
+  </INSPECTION_COMPLETE_ADMIN>
+  <NEW_INSPECTION_ORDER_BULK>
+    <![CDATA[
+        <html>		
+		<body>
+			<img src="https://upstreaminspections.com/Images/EmailBanner.jpg"  style="width:100%;height:125px;">
+			</div><br>
+			<hr>
+			Thank you for your inspection order. Your order has been received. One of our inspectors will be 
+			reaching out to very soon to schedule an inspection. We look forward to providing you the with best inspection 
+			service as possible!<br><br>	
+			<br>
+			<hr>
+			</font></div>
+		</body>
+		</html>
+    ]]>
+  </NEW_INSPECTION_ORDER_BULK>
+  <NEW_INSPECTION_ORDER_ADMIN_BULK>
+    <![CDATA[
+        <html>		
+		<body>
+			<img src="https://upstreaminspections.com/Images/EmailBanner.jpg"  style="width:100%;height:125px;">
+			</div><br>
+			<hr>
+			Hello, <br>
+      A bulk inspection order was requested. Please review and assign to the appropriate inspectors!
+			<br>
+			<hr>
+			</font></div>
+		</body>
+		</html>
+    ]]>
+  </NEW_INSPECTION_ORDER_ADMIN_BULK>
+  <PASSWORD_CHANGE>
+    <![CDATA[
+        <html>		
+		<body>
+			<img src=""  style="width:100%;height:125px;">
+			</div><br>
+			<hr>
+			Hello, <br>
+      A password change was made for your Sugar Land MMA portal login ID. If this was not initiated by you, please contact us at -- immediately.
+      <br>
+      If you did initiate the password change, you can ignore this notice!
+      <br>
+      <br>
+      Sugar Land MMA Administration
+			<br>
+			<hr>
+			</font></div>
+		</body>
+		</html>
+    ]]>
+  </PASSWORD_CHANGE>
+</EmailTemplate>
